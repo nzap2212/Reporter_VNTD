@@ -77,3 +77,4 @@ D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.UI\obj\Debug\net8.0-w
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.UI\obj\Debug\net8.0-windows\Reporter.UI.genruntimeconfig.cache
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.UI\obj\Debug\net8.0-windows\ref\Reporter.UI.dll
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.UI\obj\Debug\net8.0-windows\Reporter.UI.g.resources
+D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.UI\obj\Debug\net8.0-windows\Reporter.UI.sourcelink.json

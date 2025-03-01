@@ -15,3 +15,4 @@ D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.BUS\obj\Debug\net8.0\
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.BUS\obj\Debug\net8.0\refint\Reporter.BUS.dll
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.BUS\obj\Debug\net8.0\Reporter.BUS.pdb
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.BUS\obj\Debug\net8.0\ref\Reporter.BUS.dll
+D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.BUS\obj\Debug\net8.0\Reporter.BUS.sourcelink.json
