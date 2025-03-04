@@ -9,7 +9,7 @@ namespace Reporter.DTO
     public class KetQuaNoiTruThang
     {
         public int STT { get; set; }
-        public string TenKhoa { get; set; }
+        public string? TenKhoa { get; set; }
         public int KeHoach_chitieu { get; set; }
         public int ThucHien_chitieu { get; set; }
         public string TyLe_chitieu { get; set; }

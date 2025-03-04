@@ -9,3 +9,4 @@ D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DTO\obj\Debug\net8.0\
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DTO\obj\Debug\net8.0\refint\Reporter.DTO.dll
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DTO\obj\Debug\net8.0\Reporter.DTO.pdb
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DTO\obj\Debug\net8.0\ref\Reporter.DTO.dll
+D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DTO\obj\Debug\net8.0\Reporter.DTO.sourcelink.json

@@ -13,3 +13,4 @@ D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DAL\obj\Debug\net8.0\
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DAL\obj\Debug\net8.0\refint\Reporter.DAL.dll
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DAL\obj\Debug\net8.0\Reporter.DAL.pdb
 D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DAL\obj\Debug\net8.0\ref\Reporter.DAL.dll
+D:\Hospital-TĐ-UB\Báo cáo số liệu\Reporter\Reporter.DAL\obj\Debug\net8.0\Reporter.DAL.sourcelink.json

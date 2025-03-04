@@ -37,17 +37,17 @@ namespace Reporter.UI.components
 
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "STT", DataPropertyName = "STT", ReadOnly = true });
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Phòng khám", DataPropertyName = "PhongKham", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Chỉ tiêu ngày", DataPropertyName = "ChiTieuNgay", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Số ngày làm việc", DataPropertyName = "SoNgayLamViec", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tháng", DataPropertyName = "Thang", ReadOnly = true });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Chỉ tiêu ngày", DataPropertyName = "ChiTieuNgay", ReadOnly = false });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Số ngày làm việc", DataPropertyName = "SoNgayLamViec", ReadOnly = false });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tháng", DataPropertyName = "Thang", ReadOnly = false });
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "So với kế hoạch", DataPropertyName = "TyLe", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Số lượng", DataPropertyName = "SoLuong", ReadOnly = true });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Số lượng", DataPropertyName = "SoLuong", ReadOnly = false });
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tỷ lệ nhập viện", DataPropertyName = "TyLeNhapVien", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "KH TB/HS", DataPropertyName = "KeHoach_HS", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "TB/HS BHYT", DataPropertyName = "TrungBinh_HS", ReadOnly = true });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "KH TB/HS", DataPropertyName = "KeHoach_HS", ReadOnly = false });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "TB/HS BHYT", DataPropertyName = "TrungBinh_HS", ReadOnly = false });
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "So sánh với chỉ tiêu", DataPropertyName = "SoSanhVoiChiTieu", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "KH TB/HS", DataPropertyName = "KeHoach_TB_HS", ReadOnly = true });
-            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "TB/HS VP", DataPropertyName = "TrungBinh_HS_VP", ReadOnly = true });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "KH TB/HS", DataPropertyName = "KeHoach_TB_HS", ReadOnly = false });
+            dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "TB/HS VP", DataPropertyName = "TrungBinh_HS_VP", ReadOnly = false });
             dgvBang4.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "So sánh với chỉ tiêu", DataPropertyName = "SoSanhVoiChiTieu_VP", ReadOnly = true });
 
             dgvBang4.CellEndEdit += DgvBang4_CellEndEdit;
@@ -72,8 +72,8 @@ namespace Reporter.UI.components
                 int SoLuong = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[6].Value);
                 int KH_HS = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[8].Value);
                 int TB_HS = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[9].Value); 
-                int KH_VP = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[8].Value);
-                int TB_VP = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[9].Value);
+                int KH_VP = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[11].Value);
+                int TB_VP = ConvertToInt.Instance.TryParseInt(_dgvBang4.Rows[e.RowIndex].Cells[12].Value);
 
                 switch (e.ColumnIndex)
                 {
