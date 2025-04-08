@@ -1,0 +1,25 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Main Colors -->
+    <SolidColorBrush x:Key="PrimaryColor" Color="#1976D2"/>
+    <SolidColorBrush x:Key="PrimaryLightColor" Color="#42A5F5"/>
+    <SolidColorBrush x:Key="PrimaryDarkColor" Color="#0D47A1"/>
+    <SolidColorBrush x:Key="AccentColor" Color="#FF5722"/>
+    
+    <!-- Background Colors -->
+    <SolidColorBrush x:Key="WindowBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="SidebarBackground" Color="#263238"/>
+    <SolidColorBrush x:Key="StatusBarBackground" Color="#EEEEEE"/>
+    
+    <!-- Text Colors -->
+    <SolidColorBrush x:Key="TextColor" Color="#212121"/>
+    <SolidColorBrush x:Key="TextLightColor" Color="#757575"/>
+    <SolidColorBrush x:Key="TextOnPrimaryColor" Color="White"/>
+    
+    <!-- DataGrid Colors -->
+    <SolidColorBrush x:Key="DataGridHeaderBackground" Color="#1976D2"/>
+    <SolidColorBrush x:Key="DataGridHeaderForeground" Color="White"/>
+    <SolidColorBrush x:Key="DataGridAlternateRowBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="DataGridEditableCellBackground" Color="#FFF8E1"/>
+    <SolidColorBrush x:Key="DataGridSelectedRowBackground" Color="#E3F2FD"/>
+</ResourceDictionary> 

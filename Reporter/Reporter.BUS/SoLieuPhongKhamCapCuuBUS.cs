@@ -1,4 +1,5 @@
-﻿using Reporter.DTO;
+﻿using Reporter.DAL;
+using Reporter.DTO;
 
 namespace Reporter.BUS
 {
@@ -18,17 +19,20 @@ namespace Reporter.BUS
         }
         private SoLieuPhongKhamCapCuuBUS() { }
 
-        public List<SoLieuPhongKhamCapCuu> KhoiTaoDuLieu()
-        {
-            List<SoLieuPhongKhamCapCuu> danhSachSoLieu = new List<SoLieuPhongKhamCapCuu>
-            {
-                new SoLieuPhongKhamCapCuu("Cấp cứu", null, 3000),
-                new SoLieuPhongKhamCapCuu("Cấp cứu Nhi", null, 3000),
-                new SoLieuPhongKhamCapCuu("Khoa Điều trị theo yêu cầu", null, 3000),
-                new SoLieuPhongKhamCapCuu("Khoa Sản", null, 3000),
+        private string connectionStr = "Server=192.168.1.2;Database=eHospital_ThuyDienUB;User Id=DEV_BV;Password=DEVBV@123#@!;";
 
-            };
-            return danhSachSoLieu;
+        public List<SoLieuPhongKhamCapCuu> KhoiTaoDuLieu(string ngayvao, string ngayra)
+        {
+            string Query = $@"SELECT
+	                            TenPhongBan = pb.TenPhongBan, 
+	                            LuotKham = COUNT(*),
+	                            NhapVien = COUNT(CASE WHEN lt.LyDoRa_Code = 'CK' THEN 1 END)
+                                FROM NoiTru_LuuTru lt
+                                LEFT JOIN DM_PhongBan pb on lt.PhongBan_Id = pb.PhongBan_Id
+                                WHERE  lt.PhongBan_Id IN (40, 621, 64, 105)
+                                AND LyDoVao_Code='NM' AND lt.thoigianvao  BETWEEN '{ngayvao}' AND '{ngayra}'
+                                group by pb.TenPhongBan";
+            return Bang6_DAL.Instance.GetBang6FromDB(connectionStr, Query);
         }
     }
 }

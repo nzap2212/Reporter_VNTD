@@ -1,0 +1,102 @@
+<UserControl x:Class="Reporter_wpf.Views.PhongKhamYeuCauView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:Reporter_wpf.ViewModels">
+    <UserControl.DataContext>
+        <viewmodels:PhongKhamYeuCauViewModel/>
+    </UserControl.DataContext>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Số liệu phòng khám yêu cầu" 
+                   Style="{StaticResource TitleStyle}"
+                   Grid.Row="0"/>
+
+        <!-- DataGrid -->
+        <DataGrid x:Name="PhongKhamYeuCauDataGrid"
+                  Grid.Row="1"
+                  ItemsSource="{Binding PhongKhamYeuCauData}"
+                  Style="{StaticResource ModernDataGrid}"
+                  ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}"
+                  CellStyle="{StaticResource DataGridCellStyle}"
+                  RowStyle="{StaticResource DataGridRowStyle}"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Phòng khám" 
+                                    Binding="{Binding PhongKham}" 
+                                    Width="*"
+                                    IsReadOnly="True"/>
+                <DataGridTextColumn Header="Số bệnh nhân" 
+                                    Binding="{Binding SoBenhNhan}" 
+                                    Width="120">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                    <DataGridTextColumn.EditingElementStyle>
+                        <Style TargetType="TextBox">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridEditableCellBackground}"/>
+                        </Style>
+                    </DataGridTextColumn.EditingElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Số lượt khám" 
+                                    Binding="{Binding SoLuotKham}" 
+                                    Width="120">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                    <DataGridTextColumn.EditingElementStyle>
+                        <Style TargetType="TextBox">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridEditableCellBackground}"/>
+                        </Style>
+                    </DataGridTextColumn.EditingElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="TB lượt khám" 
+                                    Binding="{Binding TrungBinhLuotKham}" 
+                                    Width="120"
+                                    IsReadOnly="True">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Doanh thu" 
+                                    Binding="{Binding DoanhThu, StringFormat='{}{0:N0}'}" 
+                                    Width="150">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                    <DataGridTextColumn.EditingElementStyle>
+                        <Style TargetType="TextBox">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                            <Setter Property="Background" Value="{StaticResource DataGridEditableCellBackground}"/>
+                        </Style>
+                    </DataGridTextColumn.EditingElementStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="TB doanh thu" 
+                                    Binding="{Binding TrungBinhDoanhThu, StringFormat='{}{0:N0}'}" 
+                                    Width="150"
+                                    IsReadOnly="True">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="TextAlignment" Value="Right"/>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl> 

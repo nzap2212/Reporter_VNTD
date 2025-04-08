@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\components\\bang7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\components\\bang7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\components\\bang4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\components\\bang4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\components\\bang3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\components\\bang3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFD6C7A2-3097-4474-91E0-F90536152AEE}|Reporter.DTO\\Reporter.DTO.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.dto\\solieuphongkhamyeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD6C7A2-3097-4474-91E0-F90536152AEE}|Reporter.DTO\\Reporter.DTO.csproj|solutionrelative:reporter.dto\\solieuphongkhamyeucau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\components\\bang7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\components\\bang7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|d:\\hospital-t\u0111-ub\\b\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\reporter\\reporter.ui\\components\\bang6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23B976E-112D-4B11-A469-6BDA45B593E4}|Reporter.UI\\Reporter.UI.csproj|solutionrelative:reporter.ui\\components\\bang6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,92 +34,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 220,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bang4.cs",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang4.cs",
-              "RelativeDocumentMoniker": "Reporter.UI\\components\\Bang4.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang4.cs",
-              "RelativeToolTip": "Reporter.UI\\components\\Bang4.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Bang3.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang3.cs",
+              "RelativeDocumentMoniker": "Reporter.UI\\components\\Bang3.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang3.cs",
+              "RelativeToolTip": "Reporter.UI\\components\\Bang3.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowJsAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:16:00.965Z",
+              "WhenOpened": "2025-03-13T21:27:57.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bang7.cs",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang7.cs",
-              "RelativeDocumentMoniker": "Reporter.UI\\components\\Bang7.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang7.cs",
-              "RelativeToolTip": "Reporter.UI\\components\\Bang7.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA6wDQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Reporter.UI\\Form1.Designer.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.Designer.cs",
+              "RelativeToolTip": "Reporter.UI\\Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwKYBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:13:38.704Z",
+              "WhenOpened": "2025-03-12T09:27:43.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs",
+              "RelativeDocumentMoniker": "Reporter.UI\\Form1.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs [Design]",
+              "RelativeToolTip": "Reporter.UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:53:50.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bang7.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang7.cs",
+              "RelativeDocumentMoniker": "Reporter.UI\\components\\Bang7.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang7.cs",
+              "RelativeToolTip": "Reporter.UI\\components\\Bang7.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T08:52:34.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs",
               "RelativeDocumentMoniker": "Reporter.UI\\Form1.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs*",
-              "RelativeToolTip": "Reporter.UI\\Form1.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBEAAAAuAAAAAAAAAA==",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs",
+              "RelativeToolTip": "Reporter.UI\\Form1.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:32:13.297Z",
+              "WhenOpened": "2025-03-12T08:51:36.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs",
-              "RelativeDocumentMoniker": "Reporter.UI\\Form1.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\Form1.cs [Design]*",
-              "RelativeToolTip": "Reporter.UI\\Form1.cs [Design]*",
+              "DocumentIndex": 5,
+              "Title": "Bang6.cs",
+              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang6.cs",
+              "RelativeDocumentMoniker": "Reporter.UI\\components\\Bang6.cs",
+              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.UI\\components\\Bang6.cs",
+              "RelativeToolTip": "Reporter.UI\\components\\Bang6.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIAwwDIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T07:31:58.877Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "22dab68b-db27-4a7b-aca3-3bc5f525ee7c",
-        "Display": 1,
-        "X": 240,
-        "Y": 9,
-        "Width": 1685,
-        "Height": 1028,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SoLieuPhongKhamYeuCau.cs",
-              "DocumentMoniker": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.DTO\\SoLieuPhongKhamYeuCau.cs",
-              "RelativeDocumentMoniker": "Reporter.DTO\\SoLieuPhongKhamYeuCau.cs",
-              "ToolTip": "D:\\Hospital-T\u0110-UB\\B\u00E1o c\u00E1o s\u1ED1 li\u1EC7u\\Reporter\\Reporter.DTO\\SoLieuPhongKhamYeuCau.cs",
-              "RelativeToolTip": "Reporter.DTO\\SoLieuPhongKhamYeuCau.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwBoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:13:15.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T08:51:01.917Z"
             }
           ]
         }

@@ -1,0 +1,166 @@
+<UserControl x:Class="Reporter_wpf.Views.DashboardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewmodels="clr-namespace:Reporter_wpf.ViewModels">
+    <UserControl.DataContext>
+        <viewmodels:DashboardViewModel/>
+    </UserControl.DataContext>
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Tiêu đề -->
+        <TextBlock Text="Tổng quan số liệu bệnh viện" 
+                   Style="{StaticResource TitleStyle}"
+                   Grid.Row="0"/>
+
+        <!-- Thống kê tổng quan -->
+        <Grid Grid.Row="1" Margin="0,10,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Tổng số bệnh nhân -->
+            <Border Grid.Column="0" Background="#3498db" CornerRadius="5" Margin="5">
+                <Grid Margin="15,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tổng số bệnh nhân" 
+                               Foreground="White" 
+                               FontSize="14" 
+                               Grid.Row="0"/>
+                    <TextBlock Text="{Binding TotalPatients, StringFormat='{}{0:N0}'}" 
+                               Foreground="White" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Grid.Row="1" 
+                               Margin="0,5,0,0"/>
+                </Grid>
+            </Border>
+
+            <!-- Tổng số lượt khám -->
+            <Border Grid.Column="1" Background="#2ecc71" CornerRadius="5" Margin="5">
+                <Grid Margin="15,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tổng số lượt khám" 
+                               Foreground="White" 
+                               FontSize="14" 
+                               Grid.Row="0"/>
+                    <TextBlock Text="{Binding TotalVisits, StringFormat='{}{0:N0}'}" 
+                               Foreground="White" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Grid.Row="1" 
+                               Margin="0,5,0,0"/>
+                </Grid>
+            </Border>
+
+            <!-- Tổng số cấp cứu -->
+            <Border Grid.Column="2" Background="#e74c3c" CornerRadius="5" Margin="5">
+                <Grid Margin="15,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tổng số cấp cứu" 
+                               Foreground="White" 
+                               FontSize="14" 
+                               Grid.Row="0"/>
+                    <TextBlock Text="{Binding TotalEmergency, StringFormat='{}{0:N0}'}" 
+                               Foreground="White" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Grid.Row="1" 
+                               Margin="0,5,0,0"/>
+                </Grid>
+            </Border>
+
+            <!-- Tổng số nội trú -->
+            <Border Grid.Column="3" Background="#9b59b6" CornerRadius="5" Margin="5">
+                <Grid Margin="15,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tổng số nội trú" 
+                               Foreground="White" 
+                               FontSize="14" 
+                               Grid.Row="0"/>
+                    <TextBlock Text="{Binding TotalInpatient, StringFormat='{}{0:N0}'}" 
+                               Foreground="White" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Grid.Row="1" 
+                               Margin="0,5,0,0"/>
+                </Grid>
+            </Border>
+
+            <!-- Tổng doanh thu -->
+            <Border Grid.Column="4" Background="#f39c12" CornerRadius="5" Margin="5">
+                <Grid Margin="15,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tổng doanh thu" 
+                               Foreground="White" 
+                               FontSize="14" 
+                               Grid.Row="0"/>
+                    <TextBlock Text="{Binding TotalRevenue, StringFormat='{}{0:N0} VNĐ'}" 
+                               Foreground="White" 
+                               FontSize="24" 
+                               FontWeight="Bold" 
+                               Grid.Row="1" 
+                               Margin="0,5,0,0"/>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Hướng dẫn sử dụng -->
+        <Border Grid.Row="2" Background="#f5f5f5" CornerRadius="5" Padding="20">
+            <StackPanel>
+                <TextBlock Text="Hướng dẫn sử dụng" 
+                           FontSize="18" 
+                           FontWeight="SemiBold" 
+                           Margin="0,0,0,15"/>
+                
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                    <Run FontWeight="SemiBold">1. Chọn thời gian báo cáo:</Run>
+                    <Run> Thiết lập khoảng thời gian báo cáo bằng cách chọn ngày bắt đầu và ngày kết thúc ở phần trên cùng của ứng dụng.</Run>
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                    <Run FontWeight="SemiBold">2. Tải dữ liệu:</Run>
+                    <Run> Nhấn nút "Xem báo cáo" để tải dữ liệu theo khoảng thời gian đã chọn.</Run>
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                    <Run FontWeight="SemiBold">3. Xem báo cáo chi tiết:</Run>
+                    <Run> Sử dụng menu bên trái để chuyển đổi giữa các báo cáo chi tiết khác nhau.</Run>
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                    <Run FontWeight="SemiBold">4. Xuất báo cáo:</Run>
+                    <Run> Nhấn nút "Xuất Word" ở thanh trạng thái để xuất toàn bộ báo cáo ra file Word.</Run>
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                    <Run FontWeight="SemiBold">5. Làm mới dữ liệu:</Run>
+                    <Run> Nhấn nút "Làm mới" để xóa dữ liệu hiện tại và thiết lập lại khoảng thời gian.</Run>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl> 

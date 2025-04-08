@@ -21,7 +21,7 @@ namespace Reporter.UI.components
         private Bang6() { }
 
         private DataGridView? _dgvBang6;
-        public void SetupBang6(DataGridView dgvBang6)
+        public void SetupBang6(DataGridView dgvBang6, string ngayvao, string ngayra)
         {
             _dgvBang6 = dgvBang6;
 
@@ -38,7 +38,7 @@ namespace Reporter.UI.components
             dgvBang6.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tỷ lệ nhập viện", DataPropertyName = "TyLeNhapVien", ReadOnly = true });
                    
             dgvBang6.CellEndEdit += DgvBang5_CellEndEdit;
-            dgvBang6.DataSource = SoLieuPhongKhamCapCuuBUS.Instance.KhoiTaoDuLieu();
+            dgvBang6.DataSource = SoLieuPhongKhamCapCuuBUS.Instance.KhoiTaoDuLieu(ngayvao, ngayvao);
                    
             // Gắn sự kiện để tự động điều chỉnh chiều cao dòng
             dgvBang6.DataBindingComplete += (s, e) => ResizeRowsToFit.Instance.AutoResizeRow(dgvBang6);

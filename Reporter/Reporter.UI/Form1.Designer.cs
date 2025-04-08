@@ -29,32 +29,34 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            tabPage1 = new TabPage();
-            dgvBaoCao = new DataGridView();
-            label2 = new Label();
-            label1 = new Label();
-            tabControl1 = new TabControl();
-            tabPage2 = new TabPage();
-            label3 = new Label();
-            dgvKetQuaNoiTru = new DataGridView();
-            tabPage3 = new TabPage();
-            label4 = new Label();
-            dgvKetQuaThucHienDV = new DataGridView();
-            tabPage4 = new TabPage();
-            dgvBang6 = new DataGridView();
-            dgvBang5 = new DataGridView();
-            label5 = new Label();
-            dgvSoLieuKhoaKhamBenh = new DataGridView();
-            tabPage5 = new TabPage();
-            dgvBang7 = new DataGridView();
-            groupBox1 = new GroupBox();
-            button2 = new Button();
-            button1 = new Button();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker1 = new DateTimePicker();
-            label7 = new Label();
-            label6 = new Label();
-            panel1 = new Panel();
+            this.components = new System.ComponentModel.Container();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dgvBaoCao = new System.Windows.Forms.DataGridView();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dgvKetQuaNoiTru = new System.Windows.Forms.DataGridView();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dgvKetQuaThucHienDV = new System.Windows.Forms.DataGridView();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dgvSoLieuKhoaKhamBenh = new System.Windows.Forms.DataGridView();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.dgvBang5 = new System.Windows.Forms.DataGridView();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.dgvBang6 = new System.Windows.Forms.DataGridView();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.dgvBang7 = new System.Windows.Forms.DataGridView();
+            this.panelTop = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ngayvaoDP = new System.Windows.Forms.DateTimePicker();
+            this.ngayraDP = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnExportWord = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvBaoCao).BeginInit();
             tabControl1.SuspendLayout();
@@ -63,359 +65,395 @@
             tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvKetQuaThucHienDV).BeginInit();
             tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvBang6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvBang5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvSoLieuKhoaKhamBenh).BeginInit();
             tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvBang5).BeginInit();
+            tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvBang6).BeginInit();
+            tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvBang7).BeginInit();
             groupBox1.SuspendLayout();
-            panel1.SuspendLayout();
+            panelTop.SuspendLayout();
             SuspendLayout();
-            // 
-            // tabPage1
-            // 
-            tabPage1.AutoScroll = true;
-            tabPage1.Controls.Add(dgvBaoCao);
-            tabPage1.Controls.Add(label2);
-            tabPage1.Controls.Add(label1);
-            tabPage1.Location = new Point(4, 37);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1569, 1094);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Khám chữa bệnh toàn viện";
-            tabPage1.UseVisualStyleBackColor = true;
-            tabPage1.Click += tabPage1_Click;
-            // 
-            // dgvBaoCao
-            // 
-            dgvBaoCao.AllowUserToAddRows = false;
-            dgvBaoCao.AllowUserToOrderColumns = true;
-            dgvBaoCao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dgvBaoCao.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvBaoCao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBaoCao.Location = new Point(6, 62);
-            dgvBaoCao.Name = "dgvBaoCao";
-            dgvBaoCao.RowHeadersWidth = 62;
-            dgvBaoCao.Size = new Size(1557, 961);
-            dgvBaoCao.TabIndex = 3;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(9, 31);
-            label2.Name = "label2";
-            label2.Size = new Size(244, 28);
-            label2.TabIndex = 2;
-            label2.Text = "Khám chữa bệnh toàn viện";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 57);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 32);
-            label1.TabIndex = 1;
             // 
             // tabControl1
             // 
-            tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
-            tabControl1.Controls.Add(tabPage4);
-            tabControl1.Controls.Add(tabPage5);
-            tabControl1.Location = new Point(3, 289);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1577, 1135);
-            tabControl1.TabIndex = 0;
+            this.tabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Location = new Point(3, 289);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new Size(1672, 1094);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.AutoScroll = true;
+            this.tabPage1.Controls.Add(this.dgvBaoCao);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Location = new Point(4, 41);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new Padding(3);
+            this.tabPage1.Size = new Size(1664, 1049);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Khám chữa bệnh toàn viện";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dgvBaoCao
+            // 
+            this.dgvBaoCao.AllowUserToAddRows = false;
+            this.dgvBaoCao.AllowUserToOrderColumns = true;
+            this.dgvBaoCao.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvBaoCao.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvBaoCao.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBaoCao.Location = new Point(6, 62);
+            this.dgvBaoCao.Name = "dgvBaoCao";
+            this.dgvBaoCao.RowHeadersWidth = 62;
+            this.dgvBaoCao.Size = new Size(1652, 981);
+            this.dgvBaoCao.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new Point(9, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new Size(302, 32);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Khám chữa bệnh toàn viện";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            this.label1.Location = new Point(3, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new Size(0, 38);
+            this.label1.TabIndex = 1;
             // 
             // tabPage2
             // 
-            tabPage2.AutoScroll = true;
-            tabPage2.Controls.Add(label3);
-            tabPage2.Controls.Add(dgvKetQuaNoiTru);
-            tabPage2.Location = new Point(4, 29);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1590, 1102);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Kết quả thực hiện kế hoạch của các khoa nội trú";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(6, 38);
-            label3.Name = "label3";
-            label3.Size = new Size(427, 28);
-            label3.TabIndex = 3;
-            label3.Text = "Kết quả thực hiện kế hoạch của các khoa nội trú";
+            this.tabPage2.AutoScroll = true;
+            this.tabPage2.Controls.Add(this.dgvKetQuaNoiTru);
+            this.tabPage2.Location = new Point(4, 41);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new Padding(3);
+            this.tabPage2.Size = new Size(1664, 1049);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Kết quả thực hiện kế hoạch của các khoa nội trú";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // dgvKetQuaNoiTru
             // 
-            dgvKetQuaNoiTru.AllowUserToAddRows = false;
-            dgvKetQuaNoiTru.AllowUserToOrderColumns = true;
-            dgvKetQuaNoiTru.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dgvKetQuaNoiTru.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvKetQuaNoiTru.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvKetQuaNoiTru.Location = new Point(3, 69);
-            dgvKetQuaNoiTru.Name = "dgvKetQuaNoiTru";
-            dgvKetQuaNoiTru.RowHeadersWidth = 62;
-            dgvKetQuaNoiTru.Size = new Size(1581, 966);
-            dgvKetQuaNoiTru.TabIndex = 1;
+            this.dgvKetQuaNoiTru.AllowUserToAddRows = false;
+            this.dgvKetQuaNoiTru.AllowUserToOrderColumns = true;
+            this.dgvKetQuaNoiTru.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvKetQuaNoiTru.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKetQuaNoiTru.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKetQuaNoiTru.Location = new Point(3, 69);
+            this.dgvKetQuaNoiTru.Name = "dgvKetQuaNoiTru";
+            this.dgvKetQuaNoiTru.RowHeadersWidth = 62;
+            this.dgvKetQuaNoiTru.Size = new Size(1655, 959);
+            this.dgvKetQuaNoiTru.TabIndex = 1;
             // 
             // tabPage3
             // 
-            tabPage3.AutoScroll = true;
-            tabPage3.Controls.Add(label4);
-            tabPage3.Controls.Add(dgvKetQuaThucHienDV);
-            tabPage3.Location = new Point(4, 29);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(1590, 1102);
-            tabPage3.TabIndex = 2;
-            tabPage3.Text = "Kết quả thục hiện dịch vụ theo yêu cầu";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(3, 30);
-            label4.Name = "label4";
-            label4.Size = new Size(404, 28);
-            label4.TabIndex = 3;
-            label4.Text = "Kết quả thục hiện dịch vụ theo yêu cầu tháng";
+            this.tabPage3.AutoScroll = true;
+            this.tabPage3.Controls.Add(this.dgvKetQuaThucHienDV);
+            this.tabPage3.Location = new Point(4, 41);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new Padding(3);
+            this.tabPage3.Size = new Size(1664, 1049);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Kết quả thục hiện dịch vụ theo yêu cầu";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // dgvKetQuaThucHienDV
             // 
-            dgvKetQuaThucHienDV.AllowUserToAddRows = false;
-            dgvKetQuaThucHienDV.AllowUserToOrderColumns = true;
-            dgvKetQuaThucHienDV.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            dgvKetQuaThucHienDV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dgvKetQuaThucHienDV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvKetQuaThucHienDV.Location = new Point(0, 61);
-            dgvKetQuaThucHienDV.Name = "dgvKetQuaThucHienDV";
-            dgvKetQuaThucHienDV.RowHeadersWidth = 62;
-            dgvKetQuaThucHienDV.Size = new Size(1584, 966);
-            dgvKetQuaThucHienDV.TabIndex = 2;
+            this.dgvKetQuaThucHienDV.AllowUserToAddRows = false;
+            this.dgvKetQuaThucHienDV.AllowUserToOrderColumns = true;
+            this.dgvKetQuaThucHienDV.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvKetQuaThucHienDV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvKetQuaThucHienDV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvKetQuaThucHienDV.Location = new Point(0, 61);
+            this.dgvKetQuaThucHienDV.Name = "dgvKetQuaThucHienDV";
+            this.dgvKetQuaThucHienDV.RowHeadersWidth = 62;
+            this.dgvKetQuaThucHienDV.Size = new Size(1658, 959);
+            this.dgvKetQuaThucHienDV.TabIndex = 2;
             // 
             // tabPage4
             // 
-            tabPage4.AutoScroll = true;
-            tabPage4.Controls.Add(dgvBang6);
-            tabPage4.Controls.Add(dgvBang5);
-            tabPage4.Controls.Add(label5);
-            tabPage4.Controls.Add(dgvSoLieuKhoaKhamBenh);
-            tabPage4.Location = new Point(4, 29);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(1590, 1102);
-            tabPage4.TabIndex = 3;
-            tabPage4.Text = "Số liệu của từng phòng khám khoa Khám bệnh";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // dgvBang6
-            // 
-            dgvBang6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dgvBang6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBang6.Location = new Point(6, 1479);
-            dgvBang6.Name = "dgvBang6";
-            dgvBang6.RowHeadersWidth = 62;
-            dgvBang6.Size = new Size(1514, 500);
-            dgvBang6.TabIndex = 3;
-            // 
-            // dgvBang5
-            // 
-            dgvBang5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dgvBang5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBang5.Location = new Point(6, 942);
-            dgvBang5.Name = "dgvBang5";
-            dgvBang5.RowHeadersWidth = 62;
-            dgvBang5.Size = new Size(1514, 500);
-            dgvBang5.TabIndex = 2;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(3, 25);
-            label5.Name = "label5";
-            label5.Size = new Size(421, 28);
-            label5.TabIndex = 1;
-            label5.Text = "Số liệu của từng phòng khám khoa Khám bệnh";
+            this.tabPage4.AutoScroll = true;
+            this.tabPage4.Controls.Add(this.dgvSoLieuKhoaKhamBenh);
+            this.tabPage4.Location = new Point(4, 41);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new Padding(3);
+            this.tabPage4.Size = new Size(1664, 1049);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Số liệu của từng phòng khám khoa Khám bệnh";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // dgvSoLieuKhoaKhamBenh
             // 
-            dgvSoLieuKhoaKhamBenh.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dgvSoLieuKhoaKhamBenh.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvSoLieuKhoaKhamBenh.Location = new Point(6, 56);
-            dgvSoLieuKhoaKhamBenh.Name = "dgvSoLieuKhoaKhamBenh";
-            dgvSoLieuKhoaKhamBenh.RowHeadersWidth = 62;
-            dgvSoLieuKhoaKhamBenh.Size = new Size(1514, 861);
-            dgvSoLieuKhoaKhamBenh.TabIndex = 0;
+            this.dgvSoLieuKhoaKhamBenh.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvSoLieuKhoaKhamBenh.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSoLieuKhoaKhamBenh.Location = new Point(6, 56);
+            this.dgvSoLieuKhoaKhamBenh.Name = "dgvSoLieuKhoaKhamBenh";
+            this.dgvSoLieuKhoaKhamBenh.RowHeadersWidth = 62;
+            this.dgvSoLieuKhoaKhamBenh.Size = new Size(1626, 861);
+            this.dgvSoLieuKhoaKhamBenh.TabIndex = 0;
             // 
             // tabPage5
             // 
-            tabPage5.Controls.Add(dgvBang7);
-            tabPage5.Location = new Point(4, 37);
-            tabPage5.Name = "tabPage5";
-            tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(1569, 1094);
-            tabPage5.TabIndex = 4;
-            tabPage5.Text = "Số liệu phòng khám yêu cầu";
-            tabPage5.UseVisualStyleBackColor = true;
+            this.tabPage5.Controls.Add(this.dgvBang5);
+            this.tabPage5.Location = new Point(4, 41);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new Padding(3);
+            this.tabPage5.Size = new Size(1664, 1049);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Số liệu phòng khám yêu cầu";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // dgvBang5
+            // 
+            this.dgvBang5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvBang5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBang5.Location = new Point(6, 942);
+            this.dgvBang5.Name = "dgvBang5";
+            this.dgvBang5.RowHeadersWidth = 62;
+            this.dgvBang5.Size = new Size(1228, 500);
+            this.dgvBang5.TabIndex = 2;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.dgvBang6);
+            this.tabPage6.Location = new Point(4, 41);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new Padding(3);
+            this.tabPage6.Size = new Size(1664, 1049);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Phòng khám cấp cứu";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // dgvBang6
+            // 
+            this.dgvBang6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvBang6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBang6.Location = new Point(6, 1479);
+            this.dgvBang6.Name = "dgvBang6";
+            this.dgvBang6.RowHeadersWidth = 62;
+            this.dgvBang6.Size = new Size(1228, 500);
+            this.dgvBang6.TabIndex = 3;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.dgvBang7);
+            this.tabPage7.Location = new Point(4, 41);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new Padding(3);
+            this.tabPage7.Size = new Size(1664, 1049);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Phòng khám yêu cầu";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // dgvBang7
             // 
-            dgvBang7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dgvBang7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBang7.Location = new Point(3, 25);
-            dgvBang7.Name = "dgvBang7";
-            dgvBang7.RowHeadersWidth = 51;
-            dgvBang7.Size = new Size(1560, 732);
-            dgvBang7.TabIndex = 0;
+            this.dgvBang7.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            this.dgvBang7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvBang7.Location = new Point(0, 129);
+            this.dgvBang7.Name = "dgvBang7";
+            this.dgvBang7.RowHeadersWidth = 51;
+            this.dgvBang7.Size = new Size(1655, 732);
+            this.dgvBang7.TabIndex = 0;
+            // 
+            // panelTop
+            // 
+            this.panelTop.Dock = DockStyle.Top;
+            this.panelTop.Height = 100;
+            this.panelTop.BackColor = Color.White;
+            this.panelTop.Padding = new Padding(15);
+            this.panelTop.Controls.Add(this.groupBox1);
+            this.panelTop.Controls.Add(this.button1);
+            this.panelTop.Controls.Add(this.button2);
+            this.panelTop.Controls.Add(this.btnExportWord);
+            this.panelTop.Location = new Point(0, 0);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new Size(1730, 1015);
+            this.panelTop.TabIndex = 4;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(dateTimePicker2);
-            groupBox1.Controls.Add(dateTimePicker1);
-            groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(label6);
-            groupBox1.Location = new Point(10, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(672, 261);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Báo cáo số liệu";
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.ngayvaoDP);
+            this.groupBox1.Controls.Add(this.ngayraDP);
+            this.groupBox1.Location = new Point(10, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new Size(672, 261);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thời gian báo cáo";
             // 
-            // button2
+            // label1
             // 
-            button2.Location = new Point(354, 202);
-            button2.Name = "button2";
-            button2.Size = new Size(296, 40);
-            button2.TabIndex = 4;
-            button2.Text = "Xuất báo cáo";
-            button2.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new Point(20, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new Size(180, 32);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Từ ngày:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new Point(20, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new Size(122, 32);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Đến ngày:";
+            // 
+            // ngayvaoDP
+            // 
+            this.ngayvaoDP.CustomFormat = "yyyy-MM-dd";
+            this.ngayvaoDP.Format = DateTimePickerFormat.Custom;
+            this.ngayvaoDP.Location = new Point(100, 25);
+            this.ngayvaoDP.Name = "ngayvaoDP";
+            this.ngayvaoDP.Size = new Size(150, 39);
+            this.ngayvaoDP.TabIndex = 2;
+            this.ngayvaoDP.Value = DateTime.Now.AddDays(-30);
+            // 
+            // ngayraDP
+            // 
+            this.ngayraDP.CustomFormat = "yyyy-MM-dd";
+            this.ngayraDP.Format = DateTimePickerFormat.Custom;
+            this.ngayraDP.Location = new Point(100, 55);
+            this.ngayraDP.Name = "ngayraDP";
+            this.ngayraDP.Size = new Size(150, 39);
+            this.ngayraDP.TabIndex = 3;
+            this.ngayraDP.Value = DateTime.Now;
             // 
             // button1
             // 
-            button1.Location = new Point(41, 202);
-            button1.Name = "button1";
-            button1.Size = new Size(287, 40);
-            button1.TabIndex = 2;
-            button1.Text = "Chỉnh sửa số liệu";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new Point(420, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new Size(120, 40);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Xem báo cáo";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // dateTimePicker2
+            // button2
             // 
-            dateTimePicker2.Location = new Point(234, 130);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(416, 34);
-            dateTimePicker2.TabIndex = 3;
+            this.button2.Location = new Point(550, 25);
+            this.button2.Name = "button2";
+            this.button2.Size = new Size(120, 40);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Làm mới";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // dateTimePicker1
+            // btnExportWord
             // 
-            dateTimePicker1.Location = new Point(234, 62);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(416, 34);
-            dateTimePicker1.TabIndex = 2;
+            this.btnExportWord.Location = new Point(680, 25);
+            this.btnExportWord.Name = "btnExportWord";
+            this.btnExportWord.Size = new Size(120, 40);
+            this.btnExportWord.TabIndex = 6;
+            this.btnExportWord.Text = "Xuất Word";
+            this.btnExportWord.UseVisualStyleBackColor = true;
+            this.btnExportWord.Click += new System.EventHandler(this.btnExportWord_Click);
             // 
-            // label7
+            // statusStrip1
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(79, 135);
-            label7.Name = "label7";
-            label7.Size = new Size(99, 28);
-            label7.TabIndex = 1;
-            label7.Text = "Đến ngày:";
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusLabel});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 578);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1730, 22);
+            this.statusStrip1.TabIndex = 5;
+            this.statusStrip1.Text = "statusStrip1";
             // 
-            // label6
+            // statusLabel
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(21, 62);
-            label6.Name = "label6";
-            label6.Size = new Size(147, 28);
-            label6.TabIndex = 0;
-            label6.Text = "Số liệu từ ngày:";
-            // 
-            // panel1
-            // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.AutoScroll = true;
-            panel1.Controls.Add(groupBox1);
-            panel1.Controls.Add(tabControl1);
-            panel1.Location = new Point(12, 12);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1730, 1015);
-            panel1.TabIndex = 4;
+            this.statusLabel.Name = "statusLabel";
+            this.statusLabel.Text = "Sẵn sàng";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(11F, 28F);
-            AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
-            AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(1764, 1039);
-            Controls.Add(panel1);
-            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 4, 3, 4);
-            Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Báo cáo số liệu";
-            tabPage1.ResumeLayout(false);
-            tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvBaoCao).EndInit();
-            tabControl1.ResumeLayout(false);
-            tabPage2.ResumeLayout(false);
-            tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvKetQuaNoiTru).EndInit();
-            tabPage3.ResumeLayout(false);
-            tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvKetQuaThucHienDV).EndInit();
-            tabPage4.ResumeLayout(false);
-            tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvBang6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvBang5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvSoLieuKhoaKhamBenh).EndInit();
-            tabPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvBang7).EndInit();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            panel1.ResumeLayout(false);
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
+            this.AutoScaleMode = AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1764, 1039);
+            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.panelTop);
+            this.Controls.Add(this.statusStrip1);
+            this.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            this.Icon = (Icon)resources.GetObject("$this.Icon");
+            this.Margin = new Padding(3, 4, 3, 4);
+            this.Name = "Form1";
+            this.StartPosition = FormStartPosition.CenterScreen;
+            this.Text = "Báo cáo số liệu";
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvBaoCao).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvKetQuaNoiTru).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvKetQuaThucHienDV).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvSoLieuKhoaKhamBenh).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvBang5).EndInit();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvBang6).EndInit();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)this.dgvBang7).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.panelTop.ResumeLayout(false);
+            this.ResumeLayout(false);
         }
 
         #endregion
-        private TabPage tabPage1;
-        private Label label1;
-        private TabControl tabControl1;
-        private Label label2;
-        private TabPage tabPage2;
-        private Label label3;
-        private DataGridView dgvKetQuaNoiTru;
-        private TabPage tabPage3;
-        private DataGridView dgvKetQuaThucHienDV;
-        private Label label4;
-        private DataGridView dgvBaoCao;
-        private TabPage tabPage4;
-        private Label label5;
-        private DataGridView dgvSoLieuKhoaKhamBenh;
-        private DataGridView dgvBang6;
-        private DataGridView dgvBang5;
-        private GroupBox groupBox1;
-        private Label label7;
-        private Label label6;
-        private Button button2;
-        private Button button1;
-        private DateTimePicker dateTimePicker2;
-        private DateTimePicker dateTimePicker1;
-        private Panel panel1;
-        private TabPage tabPage5;
-        private DataGridView dgvBang7;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dgvBaoCao;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.DataGridView dgvKetQuaNoiTru;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.DataGridView dgvKetQuaThucHienDV;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.DataGridView dgvSoLieuKhoaKhamBenh;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.DataGridView dgvBang5;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.DataGridView dgvBang6;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.DataGridView dgvBang7;
+        private System.Windows.Forms.Panel panelTop;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker ngayvaoDP;
+        private System.Windows.Forms.DateTimePicker ngayraDP;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnExportWord;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel statusLabel;
     }
 }
